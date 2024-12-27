@@ -3,3 +3,12 @@ mj:
     type: in_memory
     timeout: 30d
   translate-way: null
+  accounts:
+    - guild-id: xxx
+      channel-id: xxx
+      user-token: xxxx
+      user-agent: xxxx
+    - guild-id: xxx
+      channel-id: xxx
+      user-token: xxxx
+      user-agent: xxxx
