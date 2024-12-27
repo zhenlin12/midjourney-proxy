@@ -4,11 +4,7 @@ mj:
     timeout: 30d
   translate-way: null
   accounts:
-    - guild-id: 1288780228231036928
-      channel-id: 1288780228231036931
-      user-token: "MTI4ODc3Nzg3MzE5MjM5MDY4OQ.GDjb7e.He6pMFT8KK99GpdwPNdMrSw8dRkROysY0PHd4w"
-     
     - guild-id: 1244928681713995776
       channel-id: 1244928681713995780
-      user-token: "MTIyNDI3MjU5MzcwMDM4ODg4NA.GtgYMd.cdz9-4SzcLoumeNfTTvsHJRDT084805sVEisDc"
+      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.Gfprg8.DhOvergKiOvYhT49MxNt-CMo7Mztf0I30K_nN0
       
