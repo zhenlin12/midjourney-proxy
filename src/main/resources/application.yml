@@ -1,8 +1,5 @@
 mj:
-  accounts:
-    - guild-id: 1322095359463526411
-      channel-id: 1322095359463526414
-      user-token: "MTIyNDI3MjU5MzcwMDM4ODg4NA.G1DIHy.dsM2Bu4vORivS_f3uUkT686y_4GtXCm9Ra3nwY"
+ 
       
   task-store:
     type: in_memory
