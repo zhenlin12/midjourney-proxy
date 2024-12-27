@@ -1,9 +1,5 @@
 mj:
-  accounts:
-    - guild-id: 1244928681713995776
-      channel-id: 1244928681713995780
-      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.Gg2NpF.o5__AAZHCt8l1cezCOakHtc-AYAdwdmJP5DmeY
-      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+
       
   task-store:
     type: in_memory
