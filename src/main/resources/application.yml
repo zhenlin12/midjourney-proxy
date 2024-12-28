@@ -4,11 +4,11 @@ mj:
   accounts:
     - guild-id: 1244928681713995776
       channel-id: 1244928681713995780
-      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.GsaxO1.62CqEhch5S8G5z0gGdk3Y5D9Z6vUYv6yUIHBZY
+      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.Ge5-3f.Qp-NayFsEBsueFkgDFdsPmDCk9Kjeb7kZaTM2I
       user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
     - guild-id: 1322095359463526411
       channel-id: 1322095359463526414
-      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.GsaxO1.62CqEhch5S8G5z0gGdk3Y5D9Z6vUYv6yUIHBZY
+      user-token: MTIyNDI3MjU5MzcwMDM4ODg4NA.Ge5-3f.Qp-NayFsEBsueFkgDFdsPmDCk9Kjeb7kZaTM2I
       user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
   
   task-store:
