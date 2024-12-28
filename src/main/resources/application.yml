@@ -16,7 +16,7 @@ mj:
     timeout: 30d   
   translate-way: null  
 
-  api-secret: xmut 
+  api-secret: xmut_test
 
 
       
