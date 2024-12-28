@@ -1,15 +1,7 @@
 
 
 mj:
-  accounts:
-    - guild-id: 1244928681713995776
-      channel-id: 1244928681713995780
-   
-      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
-    - guild-id: 1322095359463526411
-      channel-id: 1322095359463526414
-    
-      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+  
   
   task-store:
     type: in_memory  
