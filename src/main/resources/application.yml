@@ -14,14 +14,7 @@ mj:
     type: in_memory  
     timeout: 30d   
   translate-way: null
-  load-balancer:
-    rule: round_robin  # 负载均衡策略：轮询
-    retry:
-      max-attempts: 3  # 最大重试次数
-      backoff:
-        initial-interval: 1000  # 初始重试间隔1秒
-        multiplier: 1.5         # 重试间隔倍数
-    timeout: 5000      # 请求超时时间5秒
+
 
 
 
