@@ -6,10 +6,7 @@ mj:
       user-token: "${MJ_ACCOUNT_1_USER_TOKEN}"   # 使用环境变量配置第一个账号的用户Token
       user-agent: "${MJ_ACCOUNT_1_USER_AGENT}"   # 使用环境变量配置第一个账号的用户代理
   
-    - guild-id: "${MJ_ACCOUNT_2_GUILD_ID}"       # 使用环境变量配置第二个账号的服务器ID
-      channel-id: "${MJ_ACCOUNT_2_CHANNEL_ID}"   # 使用环境变量配置第二个账号的频道ID
-      user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   # 使用环境变量配置第二个账号的用户Token
-      user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"   # 使用环境变量配置第二个账号的用户代理
+
   task-store:
     type: in_memory  
     timeout: 30d   
