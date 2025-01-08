@@ -9,18 +9,11 @@ mj:
   
   # 账号池配置
   accounts:
-    - guild-id: "${mj_discord_guild_id}"       # 服务器ID
-      channel-id: "${mj_discord_channel_id}"   # 频道ID
-      user-token: "${mj_discord_user_token}"   # 用户Token
-      enable: true                             # 是否启用
-      core-size: 3                             # 并发数
-      queue-size: 10                           # 等待队列长度
-      timeout-minutes: 5                       # 任务超时时间
-    
+
     - guild-id: "${mj_discord_guild_id_2}"     # 第二个账号配置
       channel-id: "${mj_discord_channel_id_2}"
       user-token: "${mj_discord_user_token_2}"
-      enable: true
+      enable: ture
       core-size: 3
       queue-size: 10
       timeout-minutes: 5
