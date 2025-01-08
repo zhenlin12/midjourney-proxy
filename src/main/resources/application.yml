@@ -1,23 +1,5 @@
 mj:
-  # 任务存储配置
   task-store:
-    type: in_memory  # 存储方式，可选in_memory或redis
-    timeout: 30d     # 任务过期时间
-  
-  # 负载均衡策略
-  accountChooseRule: RoundRobinRule  # 可选RoundRobinRule或BestWaitIdleRule
-  
-  # 账号池配置
-  accounts:
-
-    - guild-id: "${mj_discord_guild_id_2}"     # 第二个账号配置
-      channel-id: "${mj_discord_channel_id_2}"
-      user-token: "${mj_discord_user_token_2}"
-      enable: true
-      core-size: 3
-      queue-size: 10
-      timeout-minutes: 5
-
-  # 其他配置
-  api-secret: "${mj_api_secret}"  # API密钥
-  translate-way: null             # 翻译方式
+    type: in_memory  
+    timeout: 30d    
+  translate-way: null            
