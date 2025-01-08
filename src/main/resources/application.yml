@@ -1,8 +1,14 @@
 mj:
   accounts:
-    - guild-id: "${guild_id}"       # 使用环境变量配置第一个账号的服务器ID
-      channel-id: "${channel_id}"   # 使用环境变量配置第一个账号的频道ID
-      user-token: "${user_token}"   # 使用环境变量配置第一个账号的用户Token
+    - guild-id: "${MJ_ACCOUNT_1_GUILD_ID}"       
+      channel-id: "${MJ_ACCOUNT_1_CHANNEL_ID}"   
+      user-token: "${MJ_ACCOUNT_1_USER_TOKEN}"   
+      user-agent: "${MJ_ACCOUNT_1_USER_AGENT}"   
+    - guild-id: "${MJ_ACCOUNT_2_GUILD_ID}"       
+      channel-id: "${MJ_ACCOUNT_2_CHANNEL_ID}"   
+      user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   
+      user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"  
+  api-secret:"${mj_api_secret}"
   task-store:
     type: in_memory  
     timeout: 30d    
