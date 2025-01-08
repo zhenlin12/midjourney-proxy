@@ -8,7 +8,6 @@ mj:
       channel-id: "${MJ_ACCOUNT_2_CHANNEL_ID}"   
       user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   
       user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"  
-  api-secret:"${mj_api_secret}"
   task-store:
     type: in_memory  
     timeout: 30d    
