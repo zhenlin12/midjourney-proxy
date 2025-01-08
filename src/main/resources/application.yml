@@ -9,13 +9,14 @@ mj:
       channel-id: "${mj_discord_channel_id}"   # 使用环境变量配置第一个账号的频道ID
       user-token: "${mj_discord_user_token}"   # 使用环境变量配置第一个账号的用户Token
       enable: true
-      coreSize: 3
-      queueSize: 10
-      timeoutMinutes: 5
+      core-size: 3
+      queue-size: 10
+      timeout-minutes: 5
     - guild-id: "${mj_discord_guild_id_2}"       # 使用环境变量配置第一个账号的服务器ID
       channel-id: "${mj_discord_channel_id_2}"   # 使用环境变量配置第一个账号的频道ID
       user-token: "${mj_discord_user_token_2}"   # 使用环境变量配置第一个账号的用户Token
       enable: true
-      coreSize: 3
-      queueSize: 10
-      timeoutMinutes: 5
+      enable: true
+      core-size: 3
+      queue-size: 10
+      timeout-minutes: 5
