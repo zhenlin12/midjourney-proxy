@@ -13,7 +13,7 @@ mj:
     - guild-id: "${mj_discord_guild_id_2}"     # 第二个账号配置
       channel-id: "${mj_discord_channel_id_2}"
       user-token: "${mj_discord_user_token_2}"
-      enable: ture
+      enable: true
       core-size: 3
       queue-size: 10
       timeout-minutes: 5
