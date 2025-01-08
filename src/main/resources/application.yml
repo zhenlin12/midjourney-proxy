@@ -1,30 +1,21 @@
 mj:
-  # Discord 账号池配置
-  accounts:
-    - guild-id: "${MJ_ACCOUNT_1_GUILD_ID}"       # 使用环境变量配置第一个账号的服务器ID
-      channel-id: "${MJ_ACCOUNT_1_CHANNEL_ID}"   # 使用环境变量配置第一个账号的频道ID
-      user-token: "${MJ_ACCOUNT_1_USER_TOKEN}"   # 使用环境变量配置第一个账号的用户Token
-      user-agent: "${MJ_ACCOUNT_1_USER_AGENT}"   # 使用环境变量配置第一个账号的用户代理
-  
-    - guild-id: "${MJ_ACCOUNT_2_GUILD_ID}"       # 使用环境变量配置第二个账号的服务器ID
-      channel-id: "${MJ_ACCOUNT_2_CHANNEL_ID}"   # 使用环境变量配置第二个账号的频道ID
-      user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   # 使用环境变量配置第二个账号的用户Token
-      user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"   # 使用环境变量配置第二个账号的用户代理
   task-store:
     type: in_memory  
     timeout: 30d   
   translate-way: null
-  load-balancer:
-  rule: round_robin  # 负载均衡策略：轮询
-  retry:
-    max-attempts: 3  # 最大重试次数
-    backoff:
-      initial-interval: 1000  # 初始重试间隔1秒
-      multiplier: 1.5         # 重试间隔倍数
-    timeout: 5000      # 请求超时时间5秒
-
-
-
-
-
-      
+  accountChooseRule: RoundRobinRule  # 负载均衡策略
+  accounts:
+    - guildId: ${mj_discord_guild_id}
+      channelId: ${mj_discord_channel_id}
+      userToken: ${mj_discord_user_token}
+      enable: true
+      coreSize: 3
+      queueSize: 10
+      timeoutMinutes: 5
+    - guildId: ${mj_discord_guild_id_2}
+      channelId: ${mj_discord_channel_id_2}
+      userToken: ${mj_discord_user_token_2}
+      enable: true
+      coreSize: 3
+      queueSize: 10
+      timeoutMinutes: 5
