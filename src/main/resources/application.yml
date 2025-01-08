@@ -1,4 +1,8 @@
 mj:
+  accounts:
+    - guild-id: "${guild_id}"       # 使用环境变量配置第一个账号的服务器ID
+      channel-id: "${channel_id}"   # 使用环境变量配置第一个账号的频道ID
+      user-token: "${user_token}"   # 使用环境变量配置第一个账号的用户Token
   task-store:
     type: in_memory  
     timeout: 30d    
