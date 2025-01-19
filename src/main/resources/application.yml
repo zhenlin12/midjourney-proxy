@@ -1,11 +1,13 @@
 mj:
+  discord:
+    core-size: 2
   accounts:
     - guild-id: "${MJ_ACCOUNT_1_GUILD_ID}"       
       channel-id: "${MJ_ACCOUNT_1_CHANNEL_ID}"   
       user-token: "${MJ_ACCOUNT_1_USER_TOKEN}"   
       user-agent: "${MJ_ACCOUNT_1_USER_AGENT}"  
       enable: true
-      core-size: 3
+      core-size: 1
       queue-size: 10
       timeout-minutes: 5
     - guild-id: "${MJ_ACCOUNT_2_GUILD_ID}"       
@@ -13,7 +15,7 @@ mj:
       user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   
       user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"  
       enable: true
-      core-size: 3
+      core-size: 1
       queue-size: 10
       timeout-minutes: 5
   task-store:
