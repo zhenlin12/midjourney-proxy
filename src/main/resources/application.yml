@@ -1,6 +1,6 @@
 mj:
   discord:
-    core-size: 2
+    core-size: 1
   accounts:
     - guild-id: "${MJ_ACCOUNT_1_GUILD_ID}"       
       channel-id: "${MJ_ACCOUNT_1_CHANNEL_ID}"   
