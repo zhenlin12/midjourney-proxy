@@ -10,14 +10,7 @@ mj:
       core-size: 1
       queue-size: 10
       timeout-minutes: 5
-    - guild-id: "${MJ_ACCOUNT_2_GUILD_ID}"       
-      channel-id: "${MJ_ACCOUNT_2_CHANNEL_ID}"   
-      user-token: "${MJ_ACCOUNT_2_USER_TOKEN}"   
-      user-agent: "${MJ_ACCOUNT_2_USER_AGENT}"  
-      enable: true
-      core-size: 1
-      queue-size: 10
-      timeout-minutes: 5
+
   task-store:
     type: in_memory  
     timeout: 30d    
